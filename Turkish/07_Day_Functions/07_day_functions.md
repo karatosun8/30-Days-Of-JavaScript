@@ -425,8 +425,8 @@ function greetings(name = 'Peter') {
   return message
 }
 
-console.log(greetings())
-console.log(greetings('Asabeneh'))
+console.log(greetings()) //Peter, welcome to 30 Days Of JavaScript!
+console.log(greetings('Asabeneh'))//Asabeneh, welcome to 30 Days Of JavaScript!
 ```
 
 ```js
